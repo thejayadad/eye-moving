@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+  margin: 0;
+  padding: 0;
+  background: orange;
+}
+.eyes{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye{
+  width: 140px;
+  height: 60px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball{
+  width: 10px;
+  height: 10px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 15px solid #333;
+}
+    </style>
+</head>
+<body>
+    <div class="eyes">
+        <div class="eye">
+
+            <div class="ball"></div>
+        </div>
+        <div class="eye">
+
+            <div class="ball"></div>
+        </div>
+    </div>
+
+    <script src="main.js">
+    </script>
+</body>
+</html>
